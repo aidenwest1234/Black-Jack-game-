@@ -1,0 +1,70 @@
+body {
+  height: auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-size: cover;
+  background-image: url("img's/blackjack.jpg") ;
+}
+
+.container {
+  margin-top: 5em;
+  margin-left: 10em;
+  margin-right: 10em;
+  padding: 1px 1px 10px 1px;
+  background: no-repeat;
+  background-image: linear-gradient(to bottom, #040f05, #113b1a, #0f6b25, #0b9f2c, #14d62d);
+}
+
+.game-title {
+  color: #ffb703;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5em;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+.button-layout {
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+button { 
+  width: 200px;
+  padding: 7px 20px 7px 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: #ffb703;
+  color: #016f32;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #e4a915
+}
+
+button:active {
+  background-color: #cf9709;
+}
+
+#message-el {
+  font-size: 25px;
+}
+
+#player-el{
+  font-size: 35px;
+  font-family: 'Dancing Script', cursive;
+}
+
+#cards-el {
+  font-size: 25px;
+}
+
+#sum-el {
+  font-size: 25px;
+}
